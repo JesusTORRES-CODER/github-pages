@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JESUSTPartes</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+
+        .header {
+            background-color: #333;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        .nav {
+            background-color: #444;
+            padding: 1rem;
+        }
+
+        .nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 1rem;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        .section {
+            margin: 2rem 0;
+            padding: 2rem;
+            background-color: #f4f4f4;
+        }
+
+        .footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>Bienvenido a Mi Sitio Web</h1>
+    </header>
+
+    <nav class="nav">
+        <a href="#inicio">Inicio</a>
+        <a href="#sobre-mi">Sobre Mí</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+
+    <main class="container">
+        <section class="section" id="inicio">
+            <h2>Inicio</h2>
+            <p>Bienvenido a mi sitio web personal. Aquí encontrarás información sobre mí y mis proyectos.</p>
+        </section>
+
+        <section class="section" id="sobre-mi">
+            <h2>Sobre Mí</h2>
+            <p>Soy un apasionado del desarrollo web y me encanta crear sitios increíbles.</p>
+        </section>
+
+        <section class="section" id="contacto">
+            <h2>Contacto</h2>
+            <p>Puedes contactarme en: correo@ejemplo.com</p>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2024 Mi Sitio Web. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
